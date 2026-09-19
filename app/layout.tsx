@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "Krak Store",
     description: "E-commerce landing page built with Next.js",
+    verification:{
+        google: "L4o_nHAwkWF-tWLxF77HIz5jrAqS5JNj_wqZKgL5wK0",
+    }
 };
 
 export default function RootLayout({children}: LayoutProps<"/">) {
